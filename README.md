@@ -33,6 +33,6 @@ To regenerate the documentation site, run `npm run docs`.
 
 ## Documentation
 
-- API reference: `docs/API.md`
-- Deployment guide: `docs/deploy.md`
+- API reference: `docs/api.md`
+- Deployment guide: `docs/deployment.md`
 - Contributing: `CONTRIBUTING.md`
