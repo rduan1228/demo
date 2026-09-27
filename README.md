@@ -4,7 +4,7 @@ A small task-tracking API for teams.
 
 ## Requirements
 
-Tasklane requires Node.js 18.
+Tasklane requires Node.js >=22.
 
 ## Getting started
 
@@ -22,7 +22,7 @@ Tasklane requires Node.js 18.
    npm run serve
    ```
 
-The server entry point is `src/index.js`, and routes live in `src/routes/tasks.js`.
+The server entry point is `src/server.js`, and routes live in `src/routes/tasks.js`.
 Default settings are in `config/default.json`.
 
 ## Development
@@ -34,5 +34,5 @@ To regenerate the documentation site, run `npm run docs`.
 ## Documentation
 
 - API reference: `docs/API.md`
-- Deployment guide: `docs/deploy.md`
+- Deployment guide: `docs/deployment.md`
 - Contributing: `CONTRIBUTING.md`
