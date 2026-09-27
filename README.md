@@ -8,7 +8,7 @@ Tasklane requires Node.js 18.
 
 ## Getting started
 
-1. Copy `.env.sample` to `.env` and adjust the values.
+1. Copy `.env.example` to `.env` and adjust the values.
 2. Install dependencies with `npm install`.
 3. Seed some example data:
 
