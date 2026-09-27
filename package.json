@@ -1,0 +1,18 @@
+{
+  "name": "tasklane",
+  "version": "2.3.0",
+  "description": "A small task-tracking API",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "lint": "eslint src",
+    "db:seed": "node scripts/seed.js",
+    "build:docs": "node scripts/build-docs.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
